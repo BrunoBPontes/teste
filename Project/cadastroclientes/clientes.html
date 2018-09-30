@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Teste</title>
+        <link rel="stylesheet" href="clientes.css">
+        <link href="https://fonts.googleapis.com/css?family=Notable|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../../Assets/jquery.js"></script>
+        <script src="./clientes.js"></script>
+        <script src="../requests/requests.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="navbar">
+                <ul>
+                    <a class="option" href="../index/index.html">RETORNAR AO MENU</a>
+                    <a class="option" href="../cadastroavaliacoes/avaliacoes.html">AVALIAÇÕES</a>
+                    <a class="text">Clientes</a>
+                </ul>
+            </div>
+            <div class="form">
+                <form>
+                    <p>Cadastrar cliente</p>   
+                    <br>                 
+                    <input type="text" name="nomeCliente" placeholder="Razão social ou nome fantasia" required id="nome">
+                    <input type="text" name="nomeContato" placeholder="Pessoa responsável" required id="contato">
+                    <input type="text" name="data" placeholder="Data em que se tornou clientes" required id="data">
+                    <input type="submit" value="CADASTRAR">
+                </form>
+            </div>
+            <!-- Essa parte é usada na exibição mobile -->
+            <div class="button">
+                <button class="btn"><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="textmobile">Clientes</div>
+        </div>
+    </body>
+</html>

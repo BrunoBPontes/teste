@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto Teste</title>
+        <link rel="stylesheet" href="avaliacoes.css">
+        <link href="https://fonts.googleapis.com/css?family=Notable|Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <script src="../../Assets/jquery.js"></script>
+        <script src="../requests/requests.js"></script>
+        <script src="./avaliacoes.js"></script>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="navbar">
+                <ul>
+                    <a class="option" href="../index/index.html">RETORNAR AO MENU</a>
+                    <a class="option" href="../cadastroclientes/clientes.html">CLIENTES</a>
+                    <a class="text">Avaliações</a>
+                </ul>
+            </div>
+            <div class="form">
+                <form id="main"  action="">
+                    <p>Cadastrar avaliação</p>
+                    <br>
+                    <input id="data" type="text" name="mesAno" placeholder="Mês e ano de referência" required>
+                    <select id="lista" class="lista" placeholder="Listar Clientes" size="4" multiple="multiple" required></select>
+                    <input id="btnsub" type="submit" value="CADASTRAR">
+                </form>
+            </div>
+            <!-- Essa parte é usada na exibição mobile -->
+            <div class="button">
+                <button class="btn"><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="textmobile">Avaliações</div>
+        </div>
+    </body>
+</html>
